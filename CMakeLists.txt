@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(MyTinySTL)
+project(DummySTL)
 
 # version
-set(MyTinySTL_VERSION_MAJOR 2)
-set(MyTinySTL_VERSION_MINOR 0)
-set(MyTinySTL_VERSION_PATCH 0)
-set(MyTinySTL_VERSION "${MyTinySTL_VERSION_MAJOR}.${MyTinySTL_VERSION_MINOR}.${MyTinySTL_VERSION_PATCH}")
-message(STATUS "The version of this project is: ${MyTinySTL_VERSION}")
+set(DummySTL_VERSION_MAJOR 2)
+set(DummySTL_VERSION_MINOR 0)
+set(DummySTL_VERSION_PATCH 0)
+set(DummySTL_VERSION "${DummySTL_VERSION_MAJOR}.${DummySTL_VERSION_MINOR}.${DummySTL_VERSION_PATCH}")
+message(STATUS "The version of this project is: ${DummySTL_VERSION}")
 
 # build type
 set(CMAKE_BUILD_TYPE release)
@@ -32,4 +32,4 @@ endif()
 
 message(STATUS "The cmake_cxx_flags is: ${CMAKE_CXX_FLAGS}")
 
-add_subdirectory(${PROJECT_SOURCE_DIR}/Test)
+add_subdirectory(${PROJECT_SOURCE_DIR}/test)

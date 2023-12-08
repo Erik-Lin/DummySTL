@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_UNORDERED_SET_H_
-#define MYTINYSTL_UNORDERED_SET_H_
+﻿#ifndef DummySTL_UNORDERED_SET_H_
+#define DummySTL_UNORDERED_SET_H_
 
 // 这个头文件包含两个模板类 unordered_set 和 unordered_multiset
 // 功能与用法与 set 和 multiset 类似，不同的是使用 hashtable 作为底层实现机制，容器中的元素不会自动排序
@@ -530,5 +530,5 @@ void swap(unordered_multiset<Key, Hash, KeyEqual>& lhs,
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_UNORDERED_SET_H_
+#endif // !DummySTL_UNORDERED_SET_H_
 

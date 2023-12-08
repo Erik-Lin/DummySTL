@@ -1,11 +1,11 @@
-﻿#ifndef MYTINYSTL_UNORDERED_MAP_TEST_H_
-#define MYTINYSTL_UNORDERED_MAP_TEST_H_
+﻿#ifndef DummySTL_UNORDERED_MAP_TEST_H_
+#define DummySTL_UNORDERED_MAP_TEST_H_
 
 // unordered_map test : 测试 unordered_map, unordered_multimap 的接口与它们 insert 的性能
 
 #include <unordered_map>
 
-#include "../MyTinySTL/unordered_map.h"
+#include "../DummySTL/unordered_map.h"
 #include "map_test.h"
 #include "test.h"
 
@@ -199,5 +199,5 @@ void unordered_multimap_test()
 } // namespace unordered_map_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_UNORDERED_MAP_TEST_H_
+#endif // !DummySTL_UNORDERED_MAP_TEST_H_
 

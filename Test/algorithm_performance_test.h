@@ -1,11 +1,11 @@
-﻿#ifndef MYTINYSTL_ALGORITHM_PERFORMANCE_TEST_H_
-#define MYTINYSTL_ALGORITHM_PERFORMANCE_TEST_H_
+﻿#ifndef DummySTL_ALGORITHM_PERFORMANCE_TEST_H_
+#define DummySTL_ALGORITHM_PERFORMANCE_TEST_H_
 
 // 仅仅针对 sort, binary_search 做了性能测试
 
 #include <algorithm>
 
-#include "../MyTinySTL/algorithm.h"
+#include "../DummySTL/algorithm.h"
 #include "test.h"
 
 namespace mystl
@@ -104,5 +104,5 @@ void algorithm_performance_test()
 } // namespace algorithm_performance_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_ALGORITHM_PERFORMANCE_TEST_H_
+#endif // !DummySTL_ALGORITHM_PERFORMANCE_TEST_H_
 

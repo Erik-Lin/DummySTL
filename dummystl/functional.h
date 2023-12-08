@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_FUNCTIONAL_H_
-#define MYTINYSTL_FUNCTIONAL_H_
+﻿#ifndef DummySTL_FUNCTIONAL_H_
+#define DummySTL_FUNCTIONAL_H_
 
 // 这个头文件包含了 mystl 的函数对象与哈希函数
 
@@ -281,5 +281,5 @@ struct hash<long double>
 };
 
 } // namespace mystl
-#endif // !MYTINYSTL_FUNCTIONAL_H_
+#endif // !DummySTL_FUNCTIONAL_H_
 

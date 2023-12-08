@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_HASHTABLE_H_
-#define MYTINYSTL_HASHTABLE_H_
+﻿#ifndef DummySTL_HASHTABLE_H_
+#define DummySTL_HASHTABLE_H_
 
 // 这个头文件包含了一个模板类 hashtable
 // hashtable : 哈希表，使用开链法处理冲突
@@ -1605,5 +1605,5 @@ void swap(hashtable<T, Hash, KeyEqual>& lhs,
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_HASHTABLE_H_
+#endif // !DummySTL_HASHTABLE_H_
 

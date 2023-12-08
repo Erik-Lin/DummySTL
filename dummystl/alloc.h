@@ -1,5 +1,5 @@
-#ifndef MYTINYSTL_ALLOC_H_
-#define MYTINYSTL_ALLOC_H_
+#ifndef DummySTL_ALLOC_H_
+#define DummySTL_ALLOC_H_
 
 // 这个头文件包含一个类 alloc，用于分配和回收内存，以内存池的方式实现
 //
@@ -260,5 +260,5 @@ char* alloc::M_chunk_alloc(size_t size, size_t& nblock)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_ALLOC_H_
+#endif // !DummySTL_ALLOC_H_
 

@@ -1,5 +1,5 @@
-#ifndef MYTINYSTL_ALGORITHM_TEST_H_
-#define MYTINYSTL_ALGORITHM_TEST_H_
+#ifndef DummySTL_ALGORITHM_TEST_H_
+#define DummySTL_ALGORITHM_TEST_H_
 
 // 算法测试: 包含了 mystl 的 81 个算法测试
 
@@ -7,8 +7,8 @@
 #include <functional>
 #include <numeric>
 
-#include "../MyTinySTL/algorithm.h"
-#include "../MyTinySTL/vector.h"
+#include "../DummySTL/algorithm.h"
+#include "../DummySTL/vector.h"
 #include "test.h"
 
 namespace mystl
@@ -1177,4 +1177,4 @@ TEST(upper_bound_test)
 
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_ALGORITHM_TEST_H_
+#endif // !DummySTL_ALGORITHM_TEST_H_

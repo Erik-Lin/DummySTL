@@ -1,11 +1,11 @@
-﻿#ifndef MYTINYSTL_VECTOR_TEST_H_
-#define MYTINYSTL_VECTOR_TEST_H_
+﻿#ifndef DummySTL_VECTOR_TEST_H_
+#define DummySTL_VECTOR_TEST_H_
 
 // vector test : 测试 vector 的接口与 push_back 的性能
 
 #include <vector>
 
-#include "../MyTinySTL/vector.h"
+#include "../DummySTL/vector.h"
 #include "test.h"
 
 namespace mystl
@@ -110,5 +110,5 @@ void vector_test()
 } // namespace vector_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_VECTOR_TEST_H_
+#endif // !DummySTL_VECTOR_TEST_H_
 

@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ALGO_H_
-#define MYTINYSTL_ALGO_H_
+﻿#ifndef DummySTL_ALGO_H_
+#define DummySTL_ALGO_H_
 
 #ifdef _MSC_VER
 #pragma warning(push)
@@ -2740,5 +2740,5 @@ ForwardIter unique(ForwardIter first, ForwardIter last, Compared comp)
 #pragma warning(pop)
 #endif
 
-#endif // !MYTINYSTL_ALGO_H_
+#endif // !DummySTL_ALGO_H_
 

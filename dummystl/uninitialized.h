@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_UNINITIALIZED_H_
-#define MYTINYSTL_UNINITIALIZED_H_
+﻿#ifndef DummySTL_UNINITIALIZED_H_
+#define DummySTL_UNINITIALIZED_H_
 
 // 这个头文件用于对未初始化空间构造元素
 
@@ -252,5 +252,5 @@ ForwardIter uninitialized_move_n(InputIter first, Size n, ForwardIter result)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_UNINITIALIZED_H_
+#endif // !DummySTL_UNINITIALIZED_H_
 

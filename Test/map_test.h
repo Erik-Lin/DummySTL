@@ -1,12 +1,12 @@
-﻿#ifndef MYTINYSTL_MAP_TEST_H_
-#define MYTINYSTL_MAP_TEST_H_
+﻿#ifndef DummySTL_MAP_TEST_H_
+#define DummySTL_MAP_TEST_H_
 
 // map test : 测试 map, multimap 的接口与它们 insert 的性能
 
 #include <map>
 
-#include "../MyTinySTL/map.h"
-#include "../MyTinySTL/vector.h"
+#include "../DummySTL/map.h"
+#include "../DummySTL/vector.h"
 #include "test.h"
 
 namespace mystl
@@ -198,5 +198,5 @@ void multimap_test()
 } // namespace map_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_MAP_TEST_H_
+#endif // !DummySTL_MAP_TEST_H_
 

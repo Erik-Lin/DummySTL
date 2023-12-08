@@ -1,11 +1,11 @@
-﻿#ifndef MYTINYSTL_STRING_TEST_H_
-#define MYTINYSTL_STRING_TEST_H_
+﻿#ifndef DummySTL_STRING_TEST_H_
+#define DummySTL_STRING_TEST_H_
 
 // string test : 测试 string 的接口和 insert 的性能
 
 #include <string>
 
-#include "../MyTinySTL/astring.h"
+#include "../DummySTL/astring.h"
 #include "test.h"
 
 namespace mystl
@@ -204,4 +204,4 @@ void string_test()
 } // namespace string_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_STRING_TEST_H_
+#endif // !DummySTL_STRING_TEST_H_

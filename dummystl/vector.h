@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_VECTOR_H_
-#define MYTINYSTL_VECTOR_H_
+﻿#ifndef DummySTL_VECTOR_H_
+#define DummySTL_VECTOR_H_
 
 // 这个头文件包含一个模板类 vector
 // vector : 向量
@@ -932,5 +932,5 @@ void swap(vector<T>& lhs, vector<T>& rhs)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_VECTOR_H_
+#endif // !DummySTL_VECTOR_H_
 

@@ -17,7 +17,7 @@ From the version `2.x.x`, the project will enter the stage of long-term maintena
 
 ## Run test
 
-If you want to run the test, please read `Test/README.md` first.
+If you want to run the test, please read `test/README.md` first.
 
 * gcc/clang on linux/osx
 

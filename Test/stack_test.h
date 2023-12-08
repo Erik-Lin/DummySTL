@@ -1,11 +1,11 @@
-﻿#ifndef MYTINYSTL_STACK_TEST_H_
-#define MYTINYSTL_STACK_TEST_H_
+﻿#ifndef DummySTL_STACK_TEST_H_
+#define DummySTL_STACK_TEST_H_
 
 // stack test : 测试 stack 的接口 和 push 的性能
 
 #include <stack>
 
-#include "../MyTinySTL/stack.h"
+#include "../DummySTL/stack.h"
 #include "test.h"
 
 namespace mystl
@@ -99,5 +99,5 @@ void stack_test()
 } // namespace stack_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_STACK_TEST_H_
+#endif // !DummySTL_STACK_TEST_H_
 

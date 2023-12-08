@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ASTRING_H_
-#define MYTINYSTL_ASTRING_H_
+﻿#ifndef DummySTL_ASTRING_H_
+#define DummySTL_ASTRING_H_
 
 // 定义了 string, wstring, u16string, u32string 类型
 
@@ -14,5 +14,5 @@ using u16string = mystl::basic_string<char16_t>;
 using u32string = mystl::basic_string<char32_t>;
 
 }
-#endif // !MYTINYSTL_ASTRING_H_
+#endif // !DummySTL_ASTRING_H_
 

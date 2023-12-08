@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_TEST_H_
-#define MYTINYSTL_TEST_H_
+﻿#ifndef DummySTL_TEST_H_
+#define DummySTL_TEST_H_
 
 // 一个简单的单元测试框架，定义了两个类 TestCase 和 UnitTest，以及一系列用于测试的宏
 
@@ -124,7 +124,7 @@ void UnitTest::Run()
     testcase_name##_TEST
 
 // 使用宏定义掩盖复杂的测试样例封装过程，把 TEXT 中的测试案例放到单元测试中
-#define MYTINYSTL_TEST_(testcase_name)                        \
+#define DummySTL_TEST_(testcase_name)                        \
 class TESTCASE_NAME(testcase_name) : public TestCase {        \
 public:                                                       \
     TESTCASE_NAME(testcase_name)(const char* case_name)       \
@@ -695,7 +695,7 @@ void test_len(size_t len1, size_t len2, size_t len3, size_t wide)
 
 // 简单测试的宏定义
 #define TEST(testcase_name) \
-  MYTINYSTL_TEST_(testcase_name)
+  DummySTL_TEST_(testcase_name)
 
 // 运行所有测试案例
 #define RUN_ALL_TESTS() \
@@ -713,5 +713,5 @@ void test_len(size_t len1, size_t len2, size_t len3, size_t wide)
 
 }    // namespace test
 }    // namespace mystl
-#endif // !MYTINYSTL_TEST_H_
+#endif // !DummySTL_TEST_H_
 

@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ALLOCATOR_H_
-#define MYTINYSTL_ALLOCATOR_H_
+﻿#ifndef DummySTL_ALLOCATOR_H_
+#define DummySTL_ALLOCATOR_H_
 
 // 这个头文件包含一个模板类 allocator，用于管理内存的分配、释放，对象的构造、析构
 
@@ -109,5 +109,5 @@ void allocator<T>::destroy(T* first, T* last)
 }
 
 } // namespace mystl
-#endif // !MYTINYSTL_ALLOCATOR_H_
+#endif // !DummySTL_ALLOCATOR_H_
 

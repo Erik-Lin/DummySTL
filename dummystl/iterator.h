@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ITERATOR_H_
-#define MYTINYSTL_ITERATOR_H_
+﻿#ifndef DummySTL_ITERATOR_H_
+#define DummySTL_ITERATOR_H_
 
 // 这个头文件用于迭代器设计，包含了一些模板结构体与全局函数，
 
@@ -362,5 +362,5 @@ bool operator>=(const reverse_iterator<Iterator>& lhs,
 
 } // namespace mystl
 
-#endif // !MYTINYSTL_ITERATOR_H_
+#endif // !DummySTL_ITERATOR_H_
 

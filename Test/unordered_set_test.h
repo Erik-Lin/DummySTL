@@ -1,11 +1,11 @@
-﻿#ifndef MYTINYSTL_UNORDERED_SET_TEST_H_
-#define MYTINYSTL_UNORDERED_SET_TEST_H_
+﻿#ifndef DummySTL_UNORDERED_SET_TEST_H_
+#define DummySTL_UNORDERED_SET_TEST_H_
 
 // unordered_set test : 测试 unordered_set, unordered_multiset 的接口与它们 insert 的性能
 
 #include <unordered_set>
 
-#include "../MyTinySTL/unordered_set.h"
+#include "../DummySTL/unordered_set.h"
 #include "set_test.h"
 #include "test.h"
 
@@ -187,5 +187,5 @@ void unordered_multiset_test()
 } // namespace unordered_set_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_UNORDERED_SET_TEST_H_
+#endif // !DummySTL_UNORDERED_SET_TEST_H_
 
